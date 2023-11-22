@@ -43,6 +43,7 @@ func Handler(event InputEvent) (string, error) {
 	if err != nil {
 		return "Something went wrong", err
 	}
+	fmt.Println("Everything worked YAY!")
 	return "Everything worked YAY!", err
 }
 
